@@ -1,0 +1,51 @@
+﻿1. Given two numbers ‘a’ and' b’. Write a program to count the number of bits needed to be flipped to convert ‘a’ to ‘b’. [ General , Code , Samsung ] 
+2. A nibble is a four-bit aggregation, or half an octet. There are two nibbles in a byte. Given a byte, swap the two nibbles in it. For example 100 is represented as 01100100 in a byte (or 8 bits). The two nibbles are (0110) and (0100). If we swap the two nibbles, we get 01000110 which is 70 in decimal. [ General , Code , Samsung ]
+3. Given a grid with each cell consisting of positive, negative or no points i.e, zero points. We can move across a cell only if we have positive points ( > 0 ). Whenever we pass through a cell, points in that cell are added to our overall points. We need to find minimum initial points to reach the cell (m-1, n-1) from (0, 0). [ Matrix , Code , Samsung ]
+4. Given an array and a value, find if there is a triplet in the array whose sum is equal to the given value. If there is such a triplet present in the array, then print the triplet and return true. Else return false. [ Array , Code , Samsung ]
+5. Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum [ Array , Code , Samsung ]
+6. Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in the array. Elements for which no greater element exist, consider the next greater element as -1 [ Array , Code , Samsung ]
+7. Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?[ LinkedList , Code , Samsung ]
+8. Given a singly linked list, find the middle of the linked list. For example, if the given linked list is 1->2->3->4->5 then the output should be 3. If there are even nodes, then there would be two middle nodes, we need to print the second middle element. For example, if given linked list is 1->2->3->4->5->6 then the output should be 4. [ LinkedList , Code , Samsung ]
+9. Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array, i.e., both stacks should use the same array for storing elements. Following functions must be supported by twoStacks.push1(int x) –> pushes x to first stack  push2(int x) –> pushes x to second stack pop1() –> pops an element from first stack and return the popped element pop2() –> pops an element from second stack and return the popped element. [ Array , Code , Samsung ]
+10. Given a singly linked list, delete all occurrences of a given key in it. For example, consider the following list. [ LinkedList , Code , Samsung ]
+11. Given two polynomials represented by two arrays, write a function that multiplies given two polynomials. [ General , Code , Samsung ]
+12. Implement Heap Sort [ Sorting , Code , Samsung ]
+13. Which data structure is used to check for wheather expression is balace or not.. [ Stack , Tech , Samsung ]
+14. What is the output of the following code :
+int fun()
+{
+  static int i;
+  return i++;
+}
+ main()
+{
+  int i;
+  for(i=0;i<5;i++)
+printf("%d ",fun());
+}[ C , Tech , Samsung ]
+15. Which data structure is used for recursive function ? [ General , Tech , Samsung ]
+16. What is a pointer ? [ C , Tech , Samsung ]
+17. Difference between Process and thread. [ OS , Tech , Samsung ]
+18. Given an array and a value, find if there is a triplet in the array whose sum is equal to the given value. If there is such a triplet present in the array, then print the triplet and return true. Else return false. For example, if the given array is {12, 3, 4, 1, 6, 9} and the given sum is 24, then there is a triplet (12, 3 and 9) present in the array whose sum is 24. [ Array , Tech , Samsung ]
+19. Maximum run a batsman can make in 50 overs. Assuming no extra runs [ Aptitude , Samsung ]
+20. If time slice is greater than the execution time of largest execution time process than round robin [ OS , Tech , Samsung ]
+21. There is an array with 10,000 elements filled with only 1,2 and 3. they are randomely present in the array. Can we sort this array in O(n) time complexity? [ Array , Code , Samsung ]
+22. Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.[ Array , Code , Samsung ]
+23. Given an array of integers, find the length of the longest (strictly) increasing subsequence from the given array. [ Array , Code , Samsung ]
+24. Given an array arr[ ] of size N having distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array.Next greater element of an element in the array is the nearest element on the right which is greater than the current element.If there does not exist next greater of current element, then next greater element for current element is -1. For example, next greater of the last element is always -1.[ Array , Code , Samsung ]
+25. Given a string S. The task is to print all permutations of a given string in lexicographically sorted order. [ String , Code , Samsung ]
+26. Given a non-negative integer N. The task is to check if N is a power of 2. More formally, check if N can be expressed as 2x for some x. [ General , Code , Samsung ]
+27. Given a singly linked list of N nodes. [ LinkedList , Code , Samsung ]
+28. The task is to find the middle of the linked list. If there are two middle nodes(in case, when N is even), print the second middle element.  [ LinkedList , Code , Samsung ]
+29. Given a binary tree and an integer S, check whether there is root to leaf path with its sum as S. [ BinaryTree , Code , Samsung ]
+30. Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain a self loop. [ LinkedList , Code , Samsung ]
+31. Given a Binary Tree, print Left view of it. Left view of a Binary Tree is set of nodes visible when the tree is visited from Left side.  [ BinaryTree , Code , Samsung ]
+32. Given two sorted linked lists consisting of N and M nodes respectively. The task is to merge both of the list (in-place) and return head of the merged list. [ LinkedList , Code , Samsung ]
+33. Implement Insert and Search in TRIE [ Trie , Code , Samsung ] 
+34. Find the element that appears once in a sorted array [ Array , Code , Samsung ]
+35. Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. [ General , Code , Samsung ]
+36. What are dangling pointers? [ BinaryTree , Tech , Samsung ]
+37. Given a binary tree, find its level order traversal. [ BinaryTree , Tech , Samsung ]
+38. What are Triggers? [ DBMS , Tech , Samsung ]
+39. Given an n x n matrix and a number x, find the position of x in the matrix if it is present in it. Otherwise, print “Not Found”. In the given matrix, every row and column is sorted in increasing order. The designed algorithm should have linear time complexity.  [ Matrix , Code , Samsung ]
+40. Consider a big party where a log register for guest’s entry and exit times is maintained. Find the time at which there are maximum guests in the party. Note that entries in the register are not in any order. [ General , Code , Samsung ]

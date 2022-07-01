@@ -1,0 +1,53 @@
+﻿1. Given an array and an integer B, traverse the array (from the beginning) and if the element in array is B, double B and continue traversal. Find the value of B after the complete traversal. [ Array , Code , Flipkart ]
+2. Given a directed and connected graph with n nodes. If there is an edge from u to v then u depends on v. Our task was to find out the sum of dependencies for every node. [ Graph , Code , Flipkart ]
+3. What are bitwise operator , discuss in detail. [ Bitwise , Tech , Flipkart ]
+4. Given an array and an integer K, find the maximum for each and every contiguous subarray of size k.Given an array of n integers where each value represents the number of chocolates in a packet. Each packet can have a variable number of chocolates. There are m students, the task is to distribute chocolate packets such that: Each student gets one packet.The difference between the number of chocolates in the packet with maximum chocolates and packet with minimum chocolates given to the students is minimum.[ Array , Code , Flipkart ]
+5. Before the advent of QWERTY keyboards, texts and numbers were placed on the same key. For example, 2 has “ABC” if we wanted to write anything starting with ‘A’ we need to type key 2 once.Given a keypad as shown in the diagram, and an n digit number, list all words which are possible by pressing these numbers. [ String , Code , Flipkart ]
+6. Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum.  [ Array , Code , Flipkart ]
+7. Given a singly linked list, find the middle of the linked list. For example, if the given linked list is 1->2->3->4->5 then the output should be 3. If there are even nodes, then there would be two middle nodes, we need to print the second middle element. [ LinkedList , Code , Flipkart ]
+8. Level Order Binary Tree Traversal [ BinaryTree , Code , Flipkart ]
+9. Reverse Level Order Traversal - The idea is to print the last level first, then the second last level, and so on. Like Level order traversal, every level is printed from left to right. [ BinaryTree , Code , Flipkart ]
+10. Level order traversal in spiral form [ BinaryTree , Code , Flipkart ]
+11. Given two values k1 and k2 (where k1 < k2) and a root pointer to a Binary Search Tree. Print all the keys of the tree in range k1 to k2. i.e. print all x such that k1<=x<=k2 and x is a key of given BST. Print all the keys in increasing order. [ BinaryTree , Code , Flipkart ]
+12. Given a simple expression tree, consisting of basic binary operators i.e., + , – ,* and / and some integers, evaluate the expression tree. [ BinaryTree , Code , Flipkart ]
+13. The problem is opposite of this post. We are given a stack data structure with push and pop operations, the task is to implement a queue using instances of stack data structure and operations on them. [ Queue , Code , Flipkart ]
+14. Given a binary tree, write a function to get the maximum width of the given tree. Width of a tree is maximum of widths of all levels.  [ BinaryTree , Code , Flipkart ]
+15. Given a level K, you have to find out the sum of data of all the nodes at level K in a binary tree. [ BinaryTree , Code , Flipkart ]
+16. Explain the best, average and worst case complexities for sorting algorithms. [ Sorting , Tech , Flipkart ]
+17. You are blindfolded (you can’t see). There are 100 coins lying on a table. 80 are tails-up and 20 are heads-up. You need to divide them into two groups of x and y each (x+y = 100). You can pick any coin and flip it (if its tails, it will become head and if its head, it will become tail), but you can’t see so you don’t know which coin you are flipping. In the end, the two groups should contain equal number of heads. What will be the value of x and y? [ HR , Flipkart ]
+18. What is Access Code ? [ ComputerNetwork , Tech , Flipkart ]
+19. Given a string you have to write the code to reverse the sequence of vowels in each word of string. [ String , Code , Flipkart ]
+20. What is IP addressing? [ ComputerNetwork , Code , Flipkart ]
+21. Explain Inversion count in an array ? [ Array , Tech , Flipkart ]
+22. Explain external merge sorting, also try to optimize it if possible. [ Sorting , Tech , Flipkart ]
+23. Optimize the following
+int one=0, zero=0;
+void reco(int n)
+{
+    if (n<=0) zero++;
+    if (n==1) one++;
+    else
+    {
+        reco(n-1);
+        reco(n-2);
+        reco(n-3);
+    }
+}
+[ DP , Code , Flipkart ]
+24. Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum. [ Array , Code , Flipkart ]
+25. Given an array Arr of N positive integers and another number X. Determine whether or not there exist two elements in Arr whose sum is exactly X. [ Array , Code , Flipkart ]
+26. Given a sorted and rotated array A of N distinct elements which is rotated at some point, and given an element key. The task is to find the index of the given element key in the array A. [ Array , Code , Flipkart ]
+27. You are given weights and values of N items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. Note that we have only one quantity of each item.In other words, given two integer arrays val[0..N-1] and wt[0..N-1] which represent values and weights associated with N items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).[ Array , Code , Flipkart ]
+28. The cost of stock on each day is given in an array A[] of size N. Find all the days on which you buy and sell the stock so that in between those days your profit is maximum.Note: There may be multiple possible solutions. Return any one of them. Any correct solution will result in an output of 1, whereas wrong solutions will result in an output of 0. [ Array , Code , Flipkart ]
+29. Given two numbers represented by two linked lists of size N and M. The task is to return a sum list. [ LinkedList , Code , Flipkart ]
+30. You are given N elements and your task is to Implement a Stack in which you can get minimum element in O(1) time. [ Stack , Code , Flipkart ]
+31. Given two sorted linked lists consisting of N and M nodes respectively. The task is to merge both of the list (in-place) and return head of the merged list. [ LinkedList , Code , Flipkart ]
+32.  Given a 2D array, find the maximum sum subarray in it.There is a stream of integer coming. At any given point of time you have to tell median of numbers. [ Matrix , Code , Flipkart ]
+33. Given a matrix of n*n. Each cell contain 0, 1, -1.0 denotes there is no diamond but there is a path.1 denotes there is diamond at that location with a path-1 denotes that the path is blocked.Now you have start from 0,0 and reach to last cell & then return back to 0,0 collecting maximum no of diamonds.While going to last cell you can move only right and down.While returning back you can move only left and up. [ Matrix , Code , Flipkart ]
+34. Given an array of integers you to find the range l,r such that and operation of largest two element in that range is maximum.For example:Input 6 1 6 Output 1 3 You have to print lexicographically smallest range. [ Array , Code , Flipkart ]
+35. Given an array and an integer b, traverse the array and if the element in array is b , double b and continue traversal. In the end return value of b. [ Array , Code , Flipkart ]
+36. given a string of any length, check if first half of the string (n/2+1 in case of odd length) is an anagram of the second half of the string or not.[ String , Code , Flipkart ]
+37. Given two numbers a and b, find kth digit from right of a^b. (Naïve method will only help you to pass half of the test case [ General , Code , Flipkart ]
+38. Reduce a given expression in its smallest form and printing lexicographically smaller expression. [ Array , Code , Flipkart ]
+39. Given two arrays of length n and n-1, all elements of both the arrays are same except one. Find the odd element out, giving O (1) solution. [ Array , Code , Flipkart ]
+40. Given two binary trees (not any special tree like binary search tree or red black tree) with n and n-1 nodes respectively, find the odd node out. [ BinaryTree , Code , Flipkart ]
